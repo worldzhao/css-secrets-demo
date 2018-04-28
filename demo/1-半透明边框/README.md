@@ -9,6 +9,8 @@
 * 给一个容器设置一层白色背景和一道半透明白色边框
 * body 的背景会从它的半透明边框透上来
 
+![最终效果.png](https://upload-images.jianshu.io/upload_images/4869616-9aa99dbfb7bb5b1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+
 ## 常规思路
 
 ```css
@@ -29,7 +31,9 @@ body {
 检查元素，边框确实存在，但是直接是白色，body 并没有从半透明边框透上来
 
 ![实际效果.png](https://upload-images.jianshu.io/upload_images/4869616-e57c1824134156f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+
 ![检查元素-1.png](https://upload-images.jianshu.io/upload_images/4869616-8a3806f152e8291c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+
 ![检查元素-2.png](https://upload-images.jianshu.io/upload_images/4869616-3cd81a5ba156e162.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
 
 ## 原因

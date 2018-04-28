@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #example-box,
+    #example-box2,
+    #example-box3 {
+      width: 200px;
+      height: 200px;
+    }
+
+    #example-box {
+      margin: 100px auto;
+    }
+
+    #example-box2 {
+      margin: 200px auto;
+    }
+
+    #example-box3 {
+      margin: 300px auto;
+    }
+
+    #example-box {
+      background-color: burlywood;
+      box-shadow: 0 0 0 10px brown, 0 0 0 15px aquamarine, 0 0 0 25px pink;
+    }
+
+    #example-box2 {
+      background-color: burlywood;
+      border: 10px solid brown;
+      outline: 5px solid aquamarine;
+    }
+
+    #example-box3 {
+      background-color: gray;
+      border-radius: 10px;
+      outline: 5px dashed #fff;
+      outline-offset: -10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="example-box"></div>
+  <div id="example-box2"></div>
+  <div id="example-box3"></div>
+</body>
+<script>
+  var outlineBox2 = document.querySelector('#example-box2')
+  outlineBox2.onclick = function () {
+    alert('hello,world')
+  }
+
+  var outlineBox1 = document.querySelector('#example-box')
+  outlineBox1.onclick = function () {
+    alert('hello,world')
+  }
+</script>
+
+</html>
